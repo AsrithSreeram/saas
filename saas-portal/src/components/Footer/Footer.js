@@ -8,7 +8,7 @@ function Footer() {
                     <div className="xl:w-3/6 lg:w-3/6 sm:w-full text-center xl:text-left mb-6 xl:mb-0 lg:mb-0 justify-between">
                         <p className="text-gray-800">{new Date().getFullYear()} SLINGSHOT AHEAD INC. All Rights Reserved</p>
                     </div>
-                    <a href="mailto:info@slingshotmentoring.com" className="w-full text-right">info@slingshotmentoring.com</a>
+                    <a className="w-full text-right" href="mailto:info@slingshotmentoring.com" style = {{color: "#0645AD"}} >info@slingshotmentoring.com</a>
                 </div>
             </div>
         </div>

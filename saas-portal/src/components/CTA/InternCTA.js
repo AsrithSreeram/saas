@@ -9,7 +9,7 @@ function InternCTA() {
                 <div className="w-full lg:w-8/12 h-full dark:bg-gray-800 pl-16">
                     <section className="max-w-8xl pt-16 mx-auto container bg-white">
                         <div className="flex flex-col md:flex-row">
-                            <div className="flex flex-col justify-center w-full px-4 md:w-5/6 md:px-2 lg:px-12 py-10 pb-20 items-center">
+                            <div className="flex flex-col justify-center w-full px-4 md:w-5/6 md:px-2 lg:px-12 py-10 pb-20 items-center md: -mt-10 md: -mb-10">
                                 <div className="px-auto">
                                     <h3 className="text-xl  xl:text-4xl font-bold lg:leading-tight text-gray-800">Ready to change the status quo?</h3>
                                     <p className="text-base xl:text-xl text-gray-600 xl:leading-normal pt-4"> Through Slingshot, you are matched with a CMU, MIT, Stanford or YC startup for 12 weeks to meaningfully contribute alongside seasoned engineers in a challenging, fast-paced, industry environment.</p>
@@ -31,8 +31,8 @@ function InternCTA() {
                 </div>
                 <div className="w-full lg:w-6/12 h-full lg:h-full border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-white">
                     <div className="container w-full flex justify-center py-10 px-12">
-                        <div className="w-full">
-                            <div className="pt-12 w-full justify-between flex">
+                        <div className="w-full md: mb-5">
+                            <div className="pt-12 w-full justify-between flex -mt-5">
                                 <div className="flex flex-col items-center pt-2 sm:pt-8 lg:pt-2 pr-2 lg:pr-0">
                                     <div className="mt-8">
                                         <h1 className="font-bold text-indigo-900 text-lg">1. Sign up</h1>

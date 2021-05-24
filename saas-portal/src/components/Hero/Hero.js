@@ -26,19 +26,19 @@ function Hero() {
                                     <a href="https://slingshotmentoring.typeform.com/to/WGNBeJRv"><button className="focus:outline-none bg-yellow-500 transition duration-150 ease-in-out hover:bg-yellow-400 rounded text-white px-14 py-4 text-xl">Get started</button></a>
                                 </div>
                                 <div className="mt-5 sm:mt-0 md:mt-5 lg:mt-0">
-                                    <a href={routes.DISCORD_INVITE_LINK}><button className="focus:outline-none transition duration-150 ease-in-out hover:bg-white-200 rounded border border-yellow-600 text-yellow-600 px-16 py-4 text-xl">Join our discord</button></a>
+                                    <a href={routes.DISCORD_INVITE_LINK}><button className="focus:outline-none transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-yellow-600 text-yellow-600 px-16 py-4 text-xl">Join our discord</button></a>
                                 </div>
                             </div>
                         </div>
                         <div className="mt-6 md:mt-0 h-64 md:h-auto md:w-1/2 relative lg:mt-0 pl-6 sm:pl-20 pt-10 flex justify-end sm:block">
                             <div className="-mb-32 absolute left-10 w-5/6 h-5/6">
-                                <img className="inset-0 absolute object-cover object-center z-10 shadow-md w-11/12 h-full" src={heroImg} alt="Coffee" />
+                                <img className="inset-0 absolute object-cover object-center z-10 shadow-md w-11/12 h-full transition duration-500 transform hover:-translate-y-1 hover:scale-110" src={heroImg} alt="Coffee" />
                             </div>
                             <div className="absolute h-5/6 w-5/6 top-0 pl-6 left-0 flex flex-col items-start">
                                 <svg width={285} height={462} xmlns="http://www.w3.org/2000/svg">
                                     <g fill="#667EEA" fillRule="evenodd">
                                         <g>
-                                            <rect width="6.002" height="6.005" rx="3.001" />
+                                            <rect width="6.002" height="7.005" rx="3.001" />
                                             <rect x="31.002" width="6.002" height="6.005" rx="3.001" />
                                             <rect x="62.003" width="6.002" height="6.005" rx="3.001" />
                                             <rect x="93.005" width="6.002" height="6.005" rx="3.001" />
@@ -272,20 +272,20 @@ function Hero() {
             </div> */}
             <div className="container mx-auto pt-8 pb-8">
                 <div className="px-15 flex flex-wrap rounded">
-                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center  items-center">
+                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 transition duration-500 transform hover:-translate-y-1 hover:scale-110 flex justify-center items-center">
                     <a href="https://www.cmu.edu/"><img src={cmuLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/></a>
                     </div>
-                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
+                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 transition duration-500 transform hover:-translate-y-1 hover:scale-110 flex justify-center items-center">
                     <a href="https://www.stanford.edu/"><img src={stanfordLogo} width={280} height={280} viewBox="0 0 280 280" alt=""/></a>
                     </div>
-                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
+                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 transition duration-500 transform hover:-translate-y-1 hover:scale-110 flex justify-center items-center">
                     <a href="https://www.mit.edu/"><img src={mitLogo} width={144} height={144} viewBox="0 0 144 96" alt=""/></a>
                     </div>
-                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center items-center">
+                    <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 transition duration-500 transform hover:-translate-y-1 hover:scale-110 flex justify-center items-center">
                     <a href="https://www.ycombinator.com/"><img src={yCombinatorLogo} width={144} height={144} viewBox="0 0 144 144" alt=""/></a>
                     </div>
                 </div>
-                <p className="text-base md:text-lg lg:text-xl text-center text-gray-400 font-normal xl:w-10/12 xl:mx-auto mt-8">Our startup partners come from the top startup ecosystems in the world.</p>
+                <p className="text-base md:text-lg lg:text-xl text-center text-gray-400 font-normal xl:w-10/12 xl:mx-auto mt-8 md: ml-3 md: mr-3">Our startup partners come from the top startup ecosystems in the world.</p>
             </div>
         </>
     );

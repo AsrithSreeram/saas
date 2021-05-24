@@ -7,7 +7,7 @@ import aditiPic from "./assets/aditi.png";
 import antonioPic from "./assets/antonio.png";
 import prashilPic from "./assets/prashil.png";
 import manavPic from "./assets/manav.png";
-import emptyPic from "./assets/empty.jpg";
+import emptyPic from "./assets/empty.png";
 
 function InternTestimonials() {
     useEffect(() => {
@@ -72,11 +72,11 @@ function InternTestimonials() {
                                             <div className="flex items-center">
                                                 <img src={anikaPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt="" />
                                                 <div className="flex flex-col">
-                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Anika Thatavarthy</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">17 y/o, Thomas Jefferson</h3>
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold animate-pulse">Anika Thatavarthy</h2>
+                                                    <h3 className="text-sm f-m-m ml-4 animate-pulse">17 y/o, Thomas Jefferson</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3">I got so much <b>ownership</b> on what I was working on - something that you don't always get. My intern project was <b>extremely personalized & catered</b> to my core skills & interests.</p>
+                                            <p className="text-base f-m-m mt-3 animate-pulse">I got so much <b>ownership</b> on what I was working on - something that you don't always get. My intern project was <b>extremely personalized & catered</b> to my core skills & interests.</p>
                                         </div>
                                         <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
@@ -88,11 +88,11 @@ function InternTestimonials() {
                                             <div className="flex items-center">
                                                 <img src={tajwarPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col text-white">
-                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Tajwar Rahman</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Bronx High school</h3>
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold animate-pulse">Tajwar Rahman</h2>
+                                                    <h3 className="text-sm f-m-m ml-4 animate-pulse">16 y/o, Bronx High school</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3 text-white">Slingshot is a <b>win-win</b> - You get to intern and learn under <b>brilliant people</b> who went to <b>top colleges</b> and <b>great companies</b>. To top it off, it's <b>100% free</b>.</p>
+                                            <p className="text-base f-m-m mt-3 text-white animate-pulse">Slingshot is a <b>win-win</b> - You get to intern and learn under <b>brilliant people</b> who went to <b>top colleges</b> and <b>great companies</b>. To top it off, it's <b>100% free</b>.</p>
                                         </div>
                                     </div>
                                     <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6">
@@ -105,11 +105,11 @@ function InternTestimonials() {
                                         <div className="flex items-center">
                                             <img src={aditiPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                             <div className="flex flex-col">
-                                                <h2 className="text-base f-m-m ml-4 font-semibold">Aditi</h2>
-                                                <h3 className="text-sm f-m-m ml-4">16 y/o, Troy High school</h3>
+                                                <h2 className="text-base f-m-m ml-4 font-semibold animate-pulse">Aditi</h2>
+                                                <h3 className="text-sm f-m-m ml-4 animate-pulse">16 y/o, Troy High school</h3>
                                             </div>
                                         </div>
-                                        <p className="text-base f-m-m mt-3">Working at Slingshot has been an <b>extremely rewarding</b> experience - I’ve learned more from my 3 months as an intern here than <b>any other program or camp</b> I’ve attended.</p>
+                                        <p className="text-base f-m-m mt-3 animate-pulse">Working at Slingshot has been an <b>extremely rewarding</b> experience - I’ve learned more from my 3 months as an intern here than <b>any other program or camp</b> I’ve attended.</p>
                                     </div>
                                 </div>
                                 <div
@@ -129,11 +129,11 @@ function InternTestimonials() {
                                             <div className="flex items-center">
                                                 <img src={davidPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col">
-                                                    <h2 className="text-base f-m-m ml-4 font-semibold">David Chen</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Princeton High school</h3>
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold animate-pulse">David Chen</h2>
+                                                    <h3 className="text-sm f-m-m ml-4 animate-pulse">16 y/o, Princeton High school</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3">Slingshot is bringing students with <b>shared passions</b> together to learn and contribute to amazing startups. It is a great place for <b>collaboration</b> and finding what you love.</p>
+                                            <p className="text-base f-m-m mt-3 animate-pulse">Slingshot is bringing students with <b>shared passions</b> together to learn and contribute to amazing startups. It is a great place for <b>collaboration</b> and finding what you love.</p>
                                         </div>
                                         <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
@@ -145,11 +145,11 @@ function InternTestimonials() {
                                             <div className="flex items-center">
                                                 <img src={emptyPic} width={64} height={64} viewBox="0 0 32 32" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col text-white">
-                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Anujay Surana</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">16 y/o, Gems Modern, Dubai</h3>
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold animate-pulse">Anujay Surana</h2>
+                                                    <h3 className="text-sm f-m-m ml-4 animate-pulse">16 y/o, Gems Modern, Dubai</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3 text-white">The Slingshot community is amazingly inclusive and growth oriented. I certainly fit in instantly. Beyond the programming experience, Slingshot helped me grow as a team player!</p>
+                                            <p className="text-base f-m-m mt-3 text-white animate-pulse">The Slingshot community is amazingly inclusive and growth oriented. I certainly fit in instantly. Beyond the programming experience, Slingshot helped me grow as a team player!</p>
                                         </div>
                                     </div>
                                     <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6">
@@ -162,11 +162,11 @@ function InternTestimonials() {
                                         <div className="flex items-center">
                                             <img src={antonioPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                             <div className="flex flex-col">
-                                                <h2 className="text-base f-m-m ml-4 font-semibold">Antonio Scott</h2>
-                                                <h3 className="text-sm f-m-m ml-4">17 y/o, GSMST</h3>
+                                                <h2 className="text-base f-m-m ml-4 font-semibold animate-pulse">Antonio Scott</h2>
+                                                <h3 className="text-sm f-m-m ml-4 animate-pulse">17 y/o, GSMST</h3>
                                             </div>
                                         </div>
-                                        <p className="text-base f-m-m mt-3">At Slingshot, I collaborated with a group of like-minded peers who were all extremely passionate about the startup we were interning at. Slingshot is exactly what I was always waiting for!</p>
+                                        <p className="text-base f-m-m mt-3 animate-pulse">At Slingshot, I collaborated with a group of like-minded peers who were all extremely passionate about the startup we were interning at. Slingshot is exactly what I was always waiting for!</p>
                                     </div>
                                 </div>
                                 <div
@@ -186,11 +186,11 @@ function InternTestimonials() {
                                             <div className="flex items-center">
                                                 <img src={manavPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col">
-                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Manav Sankaran</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">15 y/o, Gems Modern, Dubai</h3>
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold animate-pulse">Manav Sankaran</h2>
+                                                    <h3 className="text-sm f-m-m ml-4 animate-pulse">15 y/o, Gems Modern, Dubai</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3">My work at Slingshot has allowed me to explore domains in tech I hadn't even dreamt of. It was a true industry experience that allowed me to really discover my true potential as a software engineer.</p>
+                                            <p className="text-base f-m-m mt-3 animate-pulse">My work at Slingshot has allowed me to explore domains in tech I hadn't even dreamt of. It was a true industry experience that allowed me to really discover my true potential as a software engineer.</p>
                                         </div>
                                         <div className="lg:w-1/2 relative bg-indigo-700 rounded-md p-6 mr-6 shadow-lg">
                                             <div className="absolute right-0 top-0 -mt-6">
@@ -202,11 +202,11 @@ function InternTestimonials() {
                                             <div className="flex items-center text-white">
                                                 <img src={emptyPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                                 <div className="flex flex-col">
-                                                    <h2 className="text-base f-m-m ml-4 font-semibold">Shivang Patel</h2>
-                                                    <h3 className="text-sm f-m-m ml-4">17 y/o, John P. Stevens High</h3>
+                                                    <h2 className="text-base f-m-m ml-4 font-semibold animate-pulse">Shivang Patel</h2>
+                                                    <h3 className="text-sm f-m-m ml-4 animate-pulse">17 y/o, John P. Stevens High</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-base f-m-m mt-3 text-white">I'm really out of words here. Great mentorship. Great experience. Great community. Slingshot is unlike anything out there. If you're not here, I dunno what you're doing.</p>
+                                            <p className="text-base f-m-m mt-3 text-white animate-pulse">I'm really out of words here. Great mentorship. Great experience. Great community. Slingshot is unlike anything out there. If you're not here, I dunno what you're doing.</p>
                                         </div>
                                     </div>
                                     <div className="lg:w-1/2 relative mt-8 lg:ml-32 bg-white rounded-md shadow-lg p-6 mr-6">
@@ -219,11 +219,11 @@ function InternTestimonials() {
                                         <div className="flex items-center">
                                             <img src={prashilPic} width={64} height={64} viewBox="0 0 64 64" className="rounded-full" alt=""/>
                                             <div className="flex flex-col">
-                                                <h2 className="text-base f-m-m ml-4 font-semibold">Prashil A.</h2>
-                                                <h3 className="text-sm f-m-m ml-4">17 y/o, Gems United, Dubai</h3>
+                                                <h2 className="text-base f-m-m ml-4 font-semibold animate-pulse">Prashil A.</h2>
+                                                <h3 className="text-sm f-m-m ml-4 animate-pulse">17 y/o, Gems United, Dubai</h3>
                                             </div>
                                         </div>
-                                        <p className="text-base f-m-m mt-3">Applying to Slingshot was a no-brainer. At Slingshot, I've been able to develop industry tools for real companies to use. Such a professional experience, so early on.</p>
+                                        <p className="text-base f-m-m mt-3 animate-pulse">Applying to Slingshot was a no-brainer. At Slingshot, I've been able to develop industry tools for real companies to use. Such a professional experience, so early on.</p>
                                     </div>
                                 </div>
                             </div>
@@ -233,7 +233,7 @@ function InternTestimonials() {
                         <h1 className="lg:text-5xl text-2xl f-m-w text-white font-bold">We can't stop hearing...</h1>
                         <p className="lg:text-xl text-lg f-m-m leading-loose mt-3 mb-8 text-white">"Slingshot is what we've always been waiting for." Teachers, students, schools can't stop telling us how much Slingshot means to them!</p>
                         <div className="flex items-center">
-                            <div id="prev" className="cursor-pointer  ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-white">
+                            <div id="prev" className="cursor-pointer  ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center transition duration-150 ease-in-out hover:bg-indigo-600 rounded-full border border-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-left" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <line x1={5} y1={12} x2={19} y2={12} />
@@ -241,7 +241,7 @@ function InternTestimonials() {
                                     <line x1={5} y1={12} x2={9} y2={8} />
                                 </svg>
                             </div>
-                            <div id="next" className="cursor-pointer ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-white">
+                            <div id="next" className="cursor-pointer ml-4 w-8 h-8 sm:w-12 sm:h-12 flex items-center justify-center transition duration-150 ease-in-out hover:bg-indigo-600 rounded-full border border-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-right" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <line x1={5} y1={12} x2={19} y2={12} />
@@ -256,9 +256,7 @@ function InternTestimonials() {
             </div>
             <style>
                 {`
-
-
-        /* Slider css below */
+       
         .slider {
             width: 100%;
             height: 550px;
@@ -267,69 +265,55 @@ function InternTestimonials() {
             position: relative;
             overflow: hidden;
         }
-
         .slide-ana {
             height: 100%;
         }
-
         .slide-ana>div {
             width: 100%;
             height: 100%;
             position: absolute;
             transition: all 1s;
         }
-
         @media (min-width: 1230px) and (max-width: 1530px) {
             .slider .left {
                 margin-left: 40% !important;
             }
-
             .slider .right {
                 margin-left: 50% !important;
             }
-
             .slider {
                 height: 800px;
             }
         }
-
         @media (min-width: 1024px) and (max-width: 1230px) {
             .slider .left {
                 margin-left: 40% !important;
             }
-
             .slider .right {
                 margin-left: 50% !important;
             }
-
             .slider {
                 height: 800px;
             }
         }
-
         @media (min-width: 360px) and (max-width: 1024px) {
             .slider .left {
                 margin-left: 40% !important;
             }
-
             .slider .right {
                 margin-left: 50% !important;
             }
-
             .slider {
                 height: 820px;
             }
         }
-
         @media (min-width: 100px) and (max-width: 360px) {
             .slider .left {
                 margin-left: 40% !important;
             }
-
             .slider .right {
                 margin-left: 50% !important;
             }
-
             .slider {
                 height: 900px;
             }

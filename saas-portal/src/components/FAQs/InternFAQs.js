@@ -6,8 +6,8 @@ function InternFAQs() {
     return (
         <>
          <Element name="FAQs"></Element>
-            <div className="mx-auto container f-f-p px-4 xl:px-8 my-24 mb-0">
-                <h1 className="text-center text-gray-800 text-2xl lg:text-5xl font-bold tracking-wider leading-10">FAQs</h1>
+            <div className="mx-auto container f-f-p px-4 xl:px-8 my-24 md: mt-8 md: -mb-12">
+                <h1 className="text-center text-gray-800 text-2xl lg:text-5xl font-bold tracking-wider leading-10 md:mt-20">FAQs</h1>
                 <h2 className="text-center text-gray-700 text-base lg:text-lg tracking-wide mt-5">Slingshot is too good to be true. Tell me more!</h2>
                 <div className="lg:flex flex-wrap py-8 md:py-10 lg:py-14 xl:py-20 text-lg">
                     <div className="lg:w-1/2 lg:pr-6">
@@ -106,7 +106,7 @@ function InternFAQs() {
                             {show === 3 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">That's awesome. We work with many schools around the globe. Please send an email to info@slingshotmentoring.com to schedule a meeting!</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">That's awesome. We work with many schools around the globe. Please send an email to  <a style = {{color: "#0645AD"}} href="mailto: info@slingshotmentoring.com">info@slingshotmentoring.com</a> to schedule a meeting!</p>
                                     </li>
                                 </ul>
                             )}
@@ -133,7 +133,7 @@ function InternFAQs() {
                             {show === 4 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Head on over to <a href="https://slingshotahead.com/startups">https://slingshotahead.com/startups</a></p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">Head on over to <a style = {{color: "#0645AD"}} href="https://slingshotahead.com/startups">https://slingshotahead.com/startups</a></p>
                                     </li>
                                 </ul>
                             )}
@@ -208,7 +208,7 @@ function InternFAQs() {
                             {show === 7 && (
                                 <ul>
                                     <li className="sm:pt-4 sm:pb-8 pt-2 pb-4">
-                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">100% We're always looking for motivated folks who want to change the world with us. Send an email at info@slingshotmentoring.com</p>
+                                        <p className="xl:w-10/12 w-full text-gray-600 text-sm">100% We're always looking for motivated folks who want to change the world with us. Send an email at <a style = {{color: "#0645AD"}} href="mailto: info@slingshotmentoring.com">info@slingshotmentoring.com</a></p>
                                     </li>
                                 </ul>
                             )}
